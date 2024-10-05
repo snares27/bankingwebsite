@@ -6,7 +6,7 @@ const TotalBalanceBox = ({
     accounts=[], totalBanks, totalCurrentBalance}: TotlaBalanceBoxProps ) => {
   return (
     <section className='total-balance'>
-        <div className='Total-balance-chart'>
+        <div className='total-balance-chart'>
             <DoughnutChart accounts={accounts}/>
 
         </div>
